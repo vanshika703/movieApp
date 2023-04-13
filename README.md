@@ -17,10 +17,22 @@ To be added:
 - Filter feature
 
 ##Screenshots:
-![image](https://user-images.githubusercontent.com/50284087/231745148-d1b438cf-93a6-4b23-b126-815cc04b7d35.png)
-![image](https://user-images.githubusercontent.com/50284087/231745260-665eaa38-64c2-4f33-8fd8-7d0b74c5420f.png)
-![image](https://user-images.githubusercontent.com/50284087/231745576-1735608b-fcdb-4119-b539-2dd82a7ad510.png)
-![image](https://user-images.githubusercontent.com/50284087/231745679-a638688f-b58e-4477-9df3-ac8fe48763df.png)
+
+Shimmer
+![image](https://user-images.githubusercontent.com/50284087/231856567-605b6034-1ca0-441a-912b-ad83bb8b15a2.png)
+
+Desktop Movie List
+![image](https://user-images.githubusercontent.com/50284087/231854653-b8b587b1-2be3-4341-b4a6-4abcb427755f.png)
+
+Search Movie
+![image](https://user-images.githubusercontent.com/50284087/231854845-35c552cb-eea7-4342-9337-232477a7f7f9.png)
+
+Info on Select Movie
+![image](https://user-images.githubusercontent.com/50284087/231854951-cc42c0b9-3cdd-432a-8463-c5a9d843ed22.png)
+
+Mobile version
+![image](https://user-images.githubusercontent.com/50284087/231856051-4154ab87-0b8c-4b14-a829-e05ad6a7e102.png)
+![image](https://user-images.githubusercontent.com/50284087/231856279-afb30cce-d234-4e11-9bee-4a5638c71db1.png)
 
 
 ## Available Scripts
