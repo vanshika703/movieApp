@@ -8,13 +8,10 @@ This Project is created with React, to display a list of movies and view details
 - Data obtained from movies API using axios asynchronously
 - Movie data stored in Redux store
 - Tailwind CSS used to style componenets using flex
+- Search implemented to search for a particular movie
 - React router used to handle routing between movie list and movie info pages.
 - Responsive design across devices
 - Loading shimmer displayed while data is being fetched
-
-To be added:
-- Search feature
-- Filter feature
 
 ##Screenshots:
 
