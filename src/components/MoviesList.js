@@ -42,7 +42,7 @@ const MoviesList = () => {
         Movie App
       </p>
       <div className="flex"><input
-      className="w-96 p-2 m-2 rounded bg-stone-800 text-stone-200"
+      className="w-56 sm:w-96 p-2 m-2 rounded bg-stone-800 text-stone-200"
         type="text"
         placeholder="Search your movie here..."
         value={searchQuery}

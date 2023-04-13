@@ -36,7 +36,7 @@ const MoviePage = () => {
   return (
     <div className="h-screen w-full flex justify-center items-center">
       <div className="w-72 sm:w-96 flex flex-col justify-center items-center text-stone-200 text-left">
-        <p className="text-4xl">{movie_name}</p>
+        <p className="text-2xl sm:text-4xl">{movie_name}</p>
         <p className="p-2 m-2">{genre.join(" , ")}</p>
 
         <img className="w-full h-56" alt={movie_name} src={poster} />
