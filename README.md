@@ -23,9 +23,6 @@ To be added:
 ![image](https://user-images.githubusercontent.com/50284087/231745679-a638688f-b58e-4477-9df3-ac8fe48763df.png)
 
 
-To clone 
-
-
 ## Available Scripts
 
 If you want to run it locally follow:
