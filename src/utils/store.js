@@ -1,10 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
-import 
+import movieSlice from "./movieSlice";
 
 const store = configureStore({
-    reducer:{
-        search:searchSlice,
-    }
-})
+  reducer: {
+    movie: movieSlice,
+  },
+});
 
 export default store;

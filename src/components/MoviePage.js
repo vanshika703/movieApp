@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import axios from "axios";
+import Shimmer from "./Shimmer";
 
 const MoviePage = () => {
   const [movie, setMovie] = useState(null);
@@ -29,23 +30,23 @@ const MoviePage = () => {
   } = movie || {};
 
   if (!movie) {
-    return;
+    return <Shimmer/>;
   }
 
   return (
     <div className="h-screen w-full flex justify-center items-center">
-      <div className="w-72 sm:w-96 flex flex-col justify-center items-center text-stone-400 text-left">
-        <p className="text-stone-200 text-4xl">{movie_name}</p>
-        <p className="p-2 m-2">{genre.toString()}</p>
+      <div className="w-72 sm:w-96 flex flex-col justify-center items-center text-stone-200 text-left">
+        <p className="text-4xl">{movie_name}</p>
+        <p className="p-2 m-2">{genre.join(" , ")}</p>
 
-        <img className="" alt={movie_name} src={poster} />
+        <img className="w-full h-56" alt={movie_name} src={poster} />
         <div className="flex flex-col justify-start">
-          <p className="m-2">DIRECTOR : {director}</p>
-          <p className="m-2">REALEASE DATE : {release_date}</p>
-          <p className="m-2">AVERAGE RATING : {ratings}</p>
-          <p className="m-2">CAST : {cast}</p>
-          <p className="m-2">RUNTIME : {runtime}mins</p>
-          <p className="m-2 text-sm">{description}</p>
+          <p className="m-2">DIRECTOR : <span className="text-stone-400">{director}</span></p>
+          <p className="m-2">REALEASE DATE : <span className="text-stone-400">{release_date}</span></p>
+          <p className="m-2">AVERAGE RATING : <span className="text-stone-400">{ratings}</span></p>
+          <p className="m-2">CAST : <span className="text-stone-400">{cast.join(" , ")}</span></p>
+          <p className="m-2">RUNTIME : <span className="text-stone-400">{runtime}mins</span></p>
+          <p className="m-2 text-sm"><span className="text-stone-400">{description}</span></p>
         </div>
       </div>
     </div>
